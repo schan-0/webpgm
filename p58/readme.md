@@ -15,4 +15,4 @@ HTML 문서를 구성하는 기본적인 태그들을 알아보고 간단한 페
 |`<img>`|이미지 첨부|
 
 # Media Reference
-- Shrek.png [Wikipedia](https://en.wikipedia.org/wiki/Shrek_(character))
+- Shrek.png : [Wikipedia](https://en.wikipedia.org/wiki/Shrek_(character))
