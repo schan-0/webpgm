@@ -15,6 +15,6 @@
 |`<a>`|하이퍼링크. target 속성으로 내부 앵커 및 외부 페이지 접근|
 
 ## Media Reference
-- sample_audio.mp3 [ttsmaker.com](https://ttsmaker.com/ko)
+- sample_audio.mp3 [[ttsmaker.com](https://ttsmaker.com/ko)]
 - 각 이미지의 출처는 [Amazon.com](https://www.amazon.com/)의 상품 페이지로, 이미지를 클릭하면 해당 상품 페이지로 이동합니다.
 
