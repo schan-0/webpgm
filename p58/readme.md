@@ -1,5 +1,5 @@
 # `p58` WEEK2 REPORT 01
-HTML 문서를 구성하는 기본적인 태그들을 알아보고 간단한 페이지를 구현하였습니다.
+HTML의 기본 태그 및 CSS의 <style>, JS의 <script>에 대해 알아보고 p.58의 예제 페이지를 구현하였습니다.
 
 |Tag|Description|
 |:---|:---|
