@@ -1,7 +1,7 @@
 # `p58` WEEK2 REPORT 01
 HTML 문서를 구성하는 기본적인 태그들을 알아보았습니다.
-|Tag|Description|
-|:---:|:---|
+|:Tag:|:Description:|
+|:---|:---|
 |`<head>`|메타데이터 및 CSS, JS 스크립트를 작성하는 공간|
 |`<style>`|CSS코드 작성 공간|
 |`<script>`|JS코드 작성 공간|
