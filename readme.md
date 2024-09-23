@@ -4,7 +4,7 @@
 ## Report List
 |INDEX|SOURCE|PAGE|
 |:-----:|:-----------:|:-----------:|
-| p58 | [HTML](/p58/index.html) | [WEB](https://schan-0.github.io/webpgm/p58/index.html _blank) |
+| p58 | [HTML](/p58/index.html) | <a href="https://schan-0.github.io/webpgm/p58/index.html" target="_blank">WEB</a> |
 | p104 | [HTML](/p104/index.html) | [WEB](https://schan-0.github.io/webpgm/p104/index.html) |
 
 ## Exercise List
