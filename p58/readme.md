@@ -1,5 +1,6 @@
 # `p58` WEEK2 REPORT 01
 HTML 문서를 구성하는 기본적인 태그들을 알아보고 간단한 페이지를 구현하였습니다.
+
 |Tag|Description|
 |:---|:---|
 |`<head>`|메타데이터 및 CSS, JS 스크립트를 작성하는 공간|
@@ -12,3 +13,6 @@ HTML 문서를 구성하는 기본적인 태그들을 알아보고 간단한 페
 |`<div>`|블록 태그|
 |`<span>`|인라인 태그|
 |`<img>`|이미지 첨부|
+
+# Media Reference
+- Shrek.png [Wikipedia](https://en.wikipedia.org/wiki/Shrek_(character))
