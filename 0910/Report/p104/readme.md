@@ -1,5 +1,5 @@
 # `p.104` WEEK2 REPORT 02
-*[GO!](https://schan-0.github.io/webpgm/p104/index.html)*
+*[GO!](https://schan-0.github.io/webpgm/0910/Report/p104/index.html)*
 
 오디오, 리스트, 표, 앵커, 하이퍼링크에 대해 알아보고 p.104의 예제 페이지를 구현하였습니다.
 
