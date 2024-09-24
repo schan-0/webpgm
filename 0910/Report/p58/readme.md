@@ -1,5 +1,5 @@
 # `p.58` WEEK2 REPORT 01
-*[GO!](https://schan-0.github.io/webpgm/p58/index.html)*
+*[GO!](https://schan-0.github.io/webpgm/0910/Report/p58/index.html)*
 
 HTML의 기본 태그 및 CSS의 <style>, JS의 <script>에 대해 알아보고 p.58의 예제 페이지를 구현하였습니다.
 
