@@ -4,8 +4,8 @@
 ## Report List
 |INDEX|SOURCE|PAGE|
 |:---:|:---:|:---:|
-| p58 | [HTML](/p58/index.html) | [WEB](https://schan-0.github.io/webpgm/p58/index.html) |
-| p104 | [HTML](/p104/index.html) | [WEB](https://schan-0.github.io/webpgm/p104/index.html) |
+| p58 | [HTML](/0910/Report/p58/index.html) | [WEB](schan-0.github.io/webpgm/0910/Report/p58/index.html) |
+| p104 | [HTML](/0910/Report/p104/index.html) | [WEB](schan-0.github.io/webpgm/0910/Report/p104/index.html) |
 
 ## Exercise List
 |INDEX|SOURCE|
