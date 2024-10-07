@@ -7,7 +7,7 @@
 | p58 | [HTML](/0910/Report/p58/index.html) | [WEB](https://schan-0.github.io/webpgm/0910/Report/p58/index.html) |
 | p104 | [HTML](/0910/Report/p104/index.html) | [WEB](https://schan-0.github.io/webpgm/0910/Report/p104/index.html) |
 | p107 | [HTML](/0924/Report/p107/p107_01.html) | [WEB](https://schan-0.github.io/webpgm/0924/Report/p107_01.html) |
-| p151  | [HTML](/0924/Report/p151/p151_01.html) | [WEB](https://schan-0.github.io/webpgm/0924/Report/p151/p151_01.html) |
+| p151  | [HTML](/0924/Report/p151/index.html) | [WEB](https://schan-0.github.io/webpgm/0924/Report/p151/index.html) |
 | p153 | [HTML](/0924/Report/p153/p151_01.html) | [WEB](https://schan-0.github.io/webpgm/0924/Report/p153/p153_01.html) |
 
 ## Exercise List
