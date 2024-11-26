@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Treeview Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .tree-node {
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .nested {
+            display: none;
+            margin-left: 20px;
+            list-style-type: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .tree-leaf {
+            color: #007bff;
+        }
+
+        .code-block {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 5px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h3 class="text-center">Treeview Example</h3>
+        <ul id="tree-root">
+        </ul>
+    </div>
+
+    <script>
+        const treeData = [          // 트리
+            {
+                text: "1. 문법기초",
+                children: [
+                    {
+                        text: "1.1. 변수",
+                        children: [
+                            {
+                                text: "1.1.1. 변수 만들기",
+                                children: [
+                                    {
+                                        text: "1.1.1.1 나이가 담긴 변수",
+                                        code: `<script>
+    // 예제03 : 여러분의 이름과 나이를 저장한 변수를 콤마(,)를 이용해서 만들어주세요
+    var name = "ddandongne", age = 30;
+<\/script>`,
+                                        isLeaf: true
+                                    },
+                                    {
+                                        text: "1.1.1.2 이름과 나이가 담긴 변수",
+                                        code: `<script>
+    // 예제02: 여러분의 이름과 나이를 저장한 변수를 만들어 주세요.
+    var name = "ddandongne";
+    var age = 30;
+<\/script>`,
+                                        isLeaf: true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ];
+
+        // 트리 생성 함수
+        function createTree(parent, nodes) {
+            const ul = document.createElement("ul");
+            ul.className = "nested";
+
+            nodes.forEach(node => {
+                const li = document.createElement("li");
+                li.className = "tree-node";
+                li.textContent = node.text;
+
+                if (node.isLeaf) {
+                    li.classList.add("tree-leaf");
+                    li.addEventListener("click", (event) => {
+                        event.stopPropagation(); // 부모 이벤트 전파 방지
+                        showCode(li, node.code);
+                    });
+                } else if (node.children) {
+                    li.addEventListener("click", (event) => {
+                        event.stopPropagation(); // 부모 이벤트 전파 방지
+                        const children = li.querySelector(".nested");
+                        if (children) {
+                            children.classList.toggle("show");
+                        }
+                    });
+                    createTree(li, node.children);
+                }
+
+                ul.appendChild(li);
+            });
+
+            parent.appendChild(ul);
+        }
+
+        // 코드 출력
+        function showCode(nodeElement, codeText) {
+            // 이미 코드 블럭이 있는 경우 제거
+            const existingCodeBlock = nodeElement.querySelector(".code-block");
+            if (existingCodeBlock) {
+                existingCodeBlock.remove();
+                return; // 코드 블럭 제거 후 종료
+            }
+
+            // 새로운 코드 블럭 생성
+            const codeBlock = document.createElement("pre");
+            codeBlock.className = "code-block";
+            codeBlock.textContent = codeText; // textContent로 코드 그대로 출력
+
+            // 리프 노드 아래에 코드 블럭 추가
+            nodeElement.appendChild(codeBlock);
+        }
+
+        // 트리 초기화
+        const treeRoot = document.getElementById("tree-root");
+        createTree(treeRoot, treeData);
+
+        // 최상위 노드 디폴트 표시
+        const rootList = treeRoot.querySelector("ul");
+        rootList.classList.add("show");
+    </script>
+</body>
+
+</html>
