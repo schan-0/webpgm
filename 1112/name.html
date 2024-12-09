@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹프로그래밍 11주차</title>
+</head>
+
+<body>
+    <canvas id="draw" style="background-color:aliceblue" width="1200" height="800">
+    </canvas>
+    <script>
+        let canvas = document.querySelector("#draw");
+        let context = canvas.getContext("2d");
+
+        function down(x, y) {
+            context.lineTo(x,y+100);
+        }
+        context.beginPath();
+        const a = 50;
+        // ㅂ
+        context.moveTo(1*a, 1*a); 
+        context.lineTo(1*a, 5*a);
+        context.lineTo(4*a, 5*a);
+        context.lineTo(4*a, 1*a);
+        context.lineTo(3*a, 1*a);
+        context.lineTo(3*a, 2*a);
+        context.lineTo(2*a, 2*a);
+        context.lineTo(2*a, 1*a);
+        context.lineTo(1*a, 1*a);
+        context.moveTo(2*a, 3*a);
+        context.lineTo(2*a, 4*a);
+        context.lineTo(3*a, 4*a);
+        context.lineTo(3*a, 3*a);
+        context.lineTo(2*a, 3*a);
+
+        // ㅏ
+        context.moveTo(5*a, 1*a);
+        context.lineTo(5*a, 5*a);
+        context.lineTo(6*a, 5*a);
+        context.lineTo(6*a, 3*a);
+        context.lineTo(7*a, 3*a);
+        context.lineTo(7*a, 2*a);
+        context.lineTo(6*a, 2*a);
+        context.lineTo(6*a, 1*a);
+        context.lineTo(5*a, 1*a);
+
+        // ㄱ
+        context.moveTo(1*a, 6*a);
+        context.lineTo(6*a, 6*a);
+        context.lineTo(6*a, 8*a);
+        context.lineTo(5*a, 8*a);
+        context.lineTo(5*a, 7*a);
+        context.lineTo(1*a, 7*a);
+        context.lineTo(1*a, 6*a);
+
+        // ㅅ
+        context.moveTo(8*a, 3*a);
+        context.lineTo(9*a, 1*a);
+        context.lineTo(11*a, 1*a);
+        context.lineTo(12*a, 3*a);
+        context.lineTo(11*a, 3*a);
+        context.lineTo(10.5*a, 2*a);
+        context.lineTo(9.5*a, 2*a);
+        context.lineTo(9*a, 3*a);
+        context.lineTo(8*a, 3*a);
+
+        // ㅡ
+        context.moveTo(8*a, 4*a);
+        context.lineTo(12*a, 4*a);
+        context.lineTo(12*a, 5*a);
+        context.lineTo(8*a, 5*a);
+        context.lineTo(8*a, 4*a);
+
+        // ㅇ
+        context.moveTo(12*a, 7*a);
+        context.arc(10*a, 7*a, 2*a, 0, 2*Math.PI, true);
+        context.moveTo(11*a, 7*a);
+        context.arc(10*a, 7*a, 1*a, 0, 2*Math.PI, true);
+
+        // ㅊ
+        context.moveTo(13*a, 2*a);
+        context.lineTo(14*a, 2*a);
+        context.lineTo(14*a, 1*a);
+        context.lineTo(15*a, 1*a);
+        context.lineTo(15*a, 2*a);
+        context.lineTo(16*a, 2*a);
+        context.lineTo(16*a, 3*a);
+        context.lineTo(15*a, 3*a);
+        context.lineTo(16*a, 4*a);
+        context.lineTo(15*a, 4*a);
+        context.lineTo(14.5*a, 3*a);
+        context.lineTo(14*a,4*a);
+        context.lineTo(13*a, 4*a);
+        context.lineTo(14*a, 3*a);
+        context.lineTo(13*a, 3*a);
+        context.lineTo(13*a, 2*a);
+        
+        // ㅏ
+        context.moveTo(5*a+600, 1*a);
+        context.lineTo(5*a+600, 5*a);
+        context.lineTo(6*a+600, 5*a);
+        context.lineTo(6*a+600, 3*a);
+        context.lineTo(7*a+600, 3*a);
+        context.lineTo(7*a+600, 2*a);
+        context.lineTo(6*a+600, 2*a);
+        context.lineTo(6*a+600, 1*a);
+        context.lineTo(5*a+600, 1*a);
+
+        // ㅡ
+        context.moveTo(14*a, 6*a);
+        context.lineTo(14*a, 8*a);
+        context.lineTo(18*a, 8*a);
+        context.lineTo(18*a, 7*a);
+        context.lineTo(15*a, 7*a);
+        context.lineTo(15*a, 6*a);
+        context.lineTo(14*a, 6*a);
+
+        
+        
+        context.strokeStyle = "blue"; 
+        context.stroke(); 
+    </script>
+</body>
+
+</html>
