@@ -1,4 +1,4 @@
-# Schan's WEBPGM 2024
+# WEBPGM 2024
 웹프로그래밍 강의 레포트 및 실습내용을 업로드 합니다.
 
 ## Report List
